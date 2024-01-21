@@ -16,3 +16,4 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://medium.com/feed/@josselin_poupeney"
+          max_post_count: 3
