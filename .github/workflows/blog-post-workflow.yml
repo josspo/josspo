@@ -1,4 +1,5 @@
 name: Latest blog post workflow
+
 on:
   push:
   workflow_dispatch:
@@ -20,22 +21,13 @@ jobs:
 
       - name: Limit to latest 3 blog posts
         run: |
-          # Use awk to print the last 3 lines of blog_posts.md
-          awk 'NR > 1{print p[NR%3]} {p[NR%3]=$0}' blog_posts.md > latest_posts.md
+          # Use awk to extract the latest 3 blog posts
+          awk '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/{if (NR >= 3) exit} {print}' blog_posts.md > latest_posts.md
           mv latest_posts.md blog_posts.md
 
       - name: Update README with latest posts
         run: |
-          # Remove existing blog post section
+          # Update the README with the latest blog posts
           sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/d' README.md
-          
-          # Append latest blog post section
+          sed -i '/<h3 align="left">Connect with me:/,$d' README.md  # Remove the "Connect with me" section
           cat blog_posts.md >> README.md
-
-      - name: Commit and push updated README
-        run: |
-          git config --local josspoupeney@gmail.com "actions@github.com"
-          git config --local josspo "GitHub Actions"
-          git add README.md
-          git commit -m "Update README with latest 3 blog posts"
-          git push
