@@ -22,8 +22,8 @@ jobs:
       - name: Limit to latest 3 blog posts
         run: |
           # Use awk to extract the latest 3 blog posts
-          awk '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/{if (NR >= 3) exit} {print}' blog_posts.md > latest_posts.md
-          mv latest_posts.md blog_posts.md
+          awk '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/{if (NR >= 3) exit} {print}' ../../README.md > latest_posts.md
+          mv latest_posts.md README.md
 
       - name: Update README with latest posts
         run: |
