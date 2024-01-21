@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Joss</h1>
-<h3 align="center">A Offensive Security Consultant who's truly passionate about hacking, penetration testing, red teaming and play CTF challenges. I'm always on the lookout for opportunities to expand my knowledge and skills. </h3>
+<h3 align="center">Offensive security consultant / Penetration Tester / Red Teamer</h3>
 
 ---
 
