@@ -12,18 +12,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://medium.com/feed/@josselin_poupeney"
+
       - name: Limit to latest 3 blog posts
         run: |
-          # Limit the number of lines to the latest 3 posts
-          tail -n 3 blog_posts.md > latest_posts.md
+          # Use awk to print the last 3 lines of blog_posts.md
+          awk 'NR > 1{print p[NR%3]} {p[NR%3]=$0}' blog_posts.md > latest_posts.md
           mv latest_posts.md blog_posts.md
+
+      - name: Update README with latest posts
+        run: |
+          # Remove existing blog post section
+          sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/d' README.md
+          
+          # Append latest blog post section
+          cat blog_posts.md >> README.md
+
       - name: Commit and push updated README
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git commit -m "Update README with latest 3 blog posts" blog_posts.md
+          git config --local josspoupeney@gmail.com "actions@github.com"
+          git config --local josspo "GitHub Actions"
+          git add README.md
+          git commit -m "Update README with latest 3 blog posts"
           git push
