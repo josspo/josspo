@@ -28,7 +28,7 @@
 </table>
 
 
-## Last Blogs posts
+## Last Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [HackTheBox GoodGames](https://medium.com/@josselin_poupeney/hackthebox-goodgames-e3979ec29037?source=rss-b99e3a5eda81------2)
 - [CSRF vs SSRF: What’s the Difference?](https://medium.com/@josselin_poupeney/csrf-vs-ssrf-whats-the-difference-d997867e46ec?source=rss-b99e3a5eda81------2)
