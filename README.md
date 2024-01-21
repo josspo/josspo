@@ -30,6 +30,11 @@
 
 ## Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [HackTheBox GoodGames](https://medium.com/@josselin_poupeney/hackthebox-goodgames-e3979ec29037?source=rss-b99e3a5eda81------2)
+- [CSRF vs SSRF: What’s the Difference?](https://medium.com/@josselin_poupeney/csrf-vs-ssrf-whats-the-difference-d997867e46ec?source=rss-b99e3a5eda81------2)
+- [File Upload Attacks with Path Traversal](https://medium.com/@josselin_poupeney/file-upload-attacks-with-path-traversal-9b6ba1d561f1?source=rss-b99e3a5eda81------2)
+- [HackTheBox Getting Started Knowledge Check](https://medium.com/@josselin_poupeney/htb-getting-started-knowledge-check-6955e5be9429?source=rss-b99e3a5eda81------2)
+- [How to prevent GitHub from suspending your cronjob based triggers](https://dev.to/gautamkrishnar/how-to-prevent-github-from-suspending-your-cronjob-based-triggers-knf)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
