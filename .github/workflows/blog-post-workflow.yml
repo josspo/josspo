@@ -1,10 +1,9 @@
 name: Latest blog post workflow
-
 on:
-  push:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
 permissions:
-  contents: write
+  contents: write # To write the generated contents to the readme
 
 jobs:
   update-readme-with-blog:
@@ -13,21 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://medium.com/feed/@josselin_poupeney"
-
-      - name: Limit to latest 3 blog posts
-        run: |
-          # Use awk to extract the latest 3 blog posts
-          awk '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/{if (NR >= 3) exit} {print}' ../../README.md > latest_posts.md
-          mv latest_posts.md README.md
-
-      - name: Update README with latest posts
-        run: |
-          # Update the README with the latest blog posts
-          sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/d' README.md
-          sed -i '/<h3 align="left">Connect with me:/,$d' README.md  # Remove the "Connect with me" section
-          cat blog_posts.md >> README.md
