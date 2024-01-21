@@ -1,9 +1,9 @@
 name: Latest blog post workflow
 on:
   push:
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+  workflow_dispatch:
 permissions:
-  contents: write # To write the generated contents to the readme
+  contents: write
 
 jobs:
   update-readme-with-blog:
@@ -16,3 +16,14 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://medium.com/feed/@josselin_poupeney"
+      - name: Limit to latest 3 blog posts
+        run: |
+          # Limit the number of lines to the latest 3 posts
+          tail -n 3 blog_posts.md > latest_posts.md
+          mv latest_posts.md blog_posts.md
+      - name: Commit and push updated README
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git commit -m "Update README with latest 3 blog posts" blog_posts.md
+          git push
