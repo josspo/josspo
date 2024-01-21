@@ -1,7 +1,7 @@
 name: Latest blog post workflow
 on:
-  push:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Run the workflow every day at midnight (UTC) 
 permissions:
   contents: write # To write the generated contents to the readme
 
@@ -12,8 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Pull in dev.to posts
+      - name: Take my Medium posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://medium.com/feed/@josselin_poupeney"
-          max_post_count: 3
+          max_post_count: 3 # Display only the latest 3 posts
