@@ -17,7 +17,7 @@
 
 
 ## HackTheBox
-<img src="https://app.hackthebox.com/profile/515499" alt="Hack The Box">
+[ ![5p1d4r](https://www.hackthebox.eu/badge/image/515499)](https://www.hackthebox.eu/home/users/profile/515499)
 
 ### Prolabs
 <table>
