@@ -30,9 +30,9 @@
 
 ## Last Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Create a Password Strength Checker in C for Beginners &lpar;Part 2&rpar;](https://medium.com/@josselin_poupeney/create-a-password-strength-checker-in-c-for-beginners-part-2-c863437ee844?source=rss-b99e3a5eda81------2)
+- [Create a Password Strength Checker in C for Beginners &lpar;Part 1&rpar;](https://medium.com/@josselin_poupeney/create-a-password-strength-checker-in-c-for-beginners-part-1-3c46917bdd88?source=rss-b99e3a5eda81------2)
 - [Find Domains for Phishing with DNSTwist](https://medium.com/@josselin_poupeney/find-domains-for-phishing-with-dnstwist-248b6525c30c?source=rss-b99e3a5eda81------2)
-- [HackTheBox GoodGames](https://medium.com/@josselin_poupeney/hackthebox-goodgames-e3979ec29037?source=rss-b99e3a5eda81------2)
-- [CSRF vs SSRF: What’s the Difference?](https://medium.com/@josselin_poupeney/csrf-vs-ssrf-whats-the-difference-d997867e46ec?source=rss-b99e3a5eda81------2)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
