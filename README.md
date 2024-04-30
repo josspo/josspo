@@ -25,6 +25,7 @@
   <tr>
     <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/Dante-1.png?raw=true" alt="Dante" width="300"></td>
     <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/Zephyr-1.png?raw=true" alt="Zephyr" width="300"></td>
+    <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/offshore.png?raw=true" alt="Offshore" width="300"></td>
   </tr>
 </table>
 
