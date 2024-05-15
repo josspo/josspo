@@ -32,9 +32,9 @@
 
 ## Last Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Introduction to Active Directory &lpar;AD&rpar;](https://medium.com/@josselin_poupeney/introduction-to-active-directory-ad-e58297d83b75?source=rss-b99e3a5eda81------2)
 - [Sliver C2 Basic Usage](https://medium.com/@josselin_poupeney/sliver-c2-basic-usage-d5c474fbb310?source=rss-b99e3a5eda81------2)
 - [Hack The Box Manager](https://medium.com/@josselin_poupeney/hackthebox-manager-8a3446a87707?source=rss-b99e3a5eda81------2)
-- [Hack The Box Certified Bug Bounty Hunter &lpar;CBBH&rpar; Review](https://medium.com/@josselin_poupeney/hack-the-box-certified-bug-bounty-hunter-cbbh-review-f25796cb22ee?source=rss-b99e3a5eda81------2)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
