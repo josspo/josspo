@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Joss</h1>
-<h3 align="center">Offensive security consultant / Penetration Tester / Red Teamer</h3>
+<h3 align="center">Offensive Security Engineer / Penetration Tester / Red Teamer</h3>
 
 ---
 
