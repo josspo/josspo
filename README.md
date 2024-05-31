@@ -3,7 +3,7 @@
 
 ---
 
-- 📝 I regularly write articles about cyber security on [https://medium.com/@josselin_poupeney](https://medium.com/@josselin_poupeney)
+- 📝 I regularly write articles about cyber security on [https://jp-sec.com/blog](https://jp-sec.com/blog)
 
 - 📫 How to reach me **josspoupeney@gmail.com**
   
