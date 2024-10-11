@@ -32,9 +32,9 @@
 
 ## Last Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Kerberoasting Attack](https://medium.com/@jp-sec/kerberoasting-attack-a735eb6067f1?source=rss-b99e3a5eda81------2)
 - [Basic Kali Linux installation with VMware and VirtualBox 2024](https://medium.com/@jp-sec/basic-kali-linux-installation-with-vmware-and-virtualbox-2024-16c764c6aa9c?source=rss-b99e3a5eda81------2)
 - [Introduction to Active Directory &lpar;AD&rpar;](https://medium.com/@jp-sec/introduction-to-active-directory-ad-e58297d83b75?source=rss-b99e3a5eda81------2)
-- [Sliver C2 Basic Usage](https://medium.com/@jp-sec/sliver-c2-basic-usage-d5c474fbb310?source=rss-b99e3a5eda81------2)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
