@@ -6,30 +6,8 @@
 - 📝 I regularly write articles about cyber security on [https://spidersec.io](https://spidersec.io)
 
 - 📫 How to reach me **josspoupeney@gmail.com**
-  
-## Certifications
-<table>
-  <tr>
-    <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/crtp.png" alt="CRTP" width="300"></td>
-    <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/ejpt.png?raw=true" alt="eJPT" width="300"></td>
-    <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/cbbh.png?raw=true" alt="CBBH" width="300"></td>
-    <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/cap.png?raw=true" alt="CBBH" width="300"></td>
-  </tr>
-</table>
 
-
-## HackTheBox
-[ ![5p1d4r](https://www.hackthebox.eu/badge/image/515499)](https://www.hackthebox.eu/home/users/profile/515499)
-
-### Prolabs
-<table>
-  <tr>
-    <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/Dante-1.png?raw=true" alt="Dante" width="300"></td>
-    <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/zephyr.png?raw=true" alt="Zephyr" width="300"></td>
-    <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/offshore.png?raw=true" alt="Offshore" width="300"></td>
-  </tr>
-</table>
-
+---
 
 ## Last Blog posts
 <!-- BLOG-POST-LIST:START -->
@@ -41,8 +19,8 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/josspoupeney-b8517b174/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/josspoupeney-b8517b174/" height="30" width="40" /></a>
-<a href="https://medium.com/@jp-sec" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@jp-sec" height="30" width="40" /></a>
+<a href="https://youtube.com/@josspoupeney?si=K40uidpo-I2a-0Dn" target="blank"><img align="center" src="https://github.com/rahuldkjain/github-profile-readme-generator/blob/master/src/images/icons/Social/youtube.svg" alt="" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
