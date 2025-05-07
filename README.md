@@ -13,6 +13,7 @@
     <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/crtp.png" alt="CRTP" width="300"></td>
     <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/ejpt.png?raw=true" alt="eJPT" width="300"></td>
     <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/cbbh.png?raw=true" alt="CBBH" width="300"></td>
+    <td><img src="https://github.com/josspo/josspo/blob/main/cert%20img/cap.png?raw=true" alt="CBBH" width="300"></td>
   </tr>
 </table>
 
